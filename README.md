@@ -1,6 +1,11 @@
 #Ovrvision Stereo chessboard calibration toolkit
 An Ovrvision calibration app to correct each eye instrics and distortion parametor
 
+#キャリブレーションだけしたい人
+1. Download ZIP  
+2. OvrvisionUtility/binの内のzipファイルを解凍
+3. readmeに従ってキャリブレーションを行ってください。
+
 #requirement
 * OpenCV 2.4.8 <http://opencv.org/>
   * [Download](http://sourceforge.net/projects/opencvlibrary/)
