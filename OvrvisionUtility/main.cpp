@@ -81,6 +81,7 @@ int main (int argc, char **argv){
 		int key=cv::waitKey(3);
 #ifdef OVRVISION
 		// Get ovrvision image
+		g_pOvrvision->PreStoreCamData();
 		g_pOvrvision->GetCamImage(leftImg.data, OVR::OV_CAMEYE_LEFT);
 		g_pOvrvision->GetCamImage(rightImg.data, OVR::OV_CAMEYE_RIGHT);
 #else
